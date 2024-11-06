@@ -1,0 +1,25 @@
+const fs = require("fs");
+
+// fs.writeFile("hey.txt", "Hey how are you,", function (err) {
+//   if (err) console.error(err);
+//   else console.log("done");
+// });
+// fs.appendFile("hey.txt", " I am fine", function (err) {
+//   if (err) console.error(err);
+//   else console.log("done");
+// });
+// fs.rename("hey.txt", "hello.txt", function (err) {
+//   if (err) console.error(err);
+//   else console.log("done");
+// });
+fs.copyFile("script.js", "./a/script.txt", function (err) {
+  if (err) console.error(err);
+  else console.log("done");
+});
+
+// const http = require("http");
+
+// const server = http.createServer(function (req, res) {
+//   res.end("Hello world");
+// });
+// server.listen(4000);
