@@ -4,13 +4,21 @@ const app = express();
 const userModel = require('./usermodel');
 
 app.get('/', (req, res) =>{
+<<<<<<< HEAD
     res.send('Faisal');
+=======
+    res.send('Hi Faisal');
+>>>>>>> 27770c817bf7906345780a4839cfecbef4087942
 });
 
 app.get('/create', async (req, res) => {
     let createdUser = await userModel.create({
         name: "Faisal",
+<<<<<<< HEAD
         email: "faisalhossain7474@gmail.com",
+=======
+        email: "faisalhossain@gmail.com",
+>>>>>>> 27770c817bf7906345780a4839cfecbef4087942
         username: "faisal"
     });
     res.send([createdUser]);
@@ -31,7 +39,12 @@ app.get('/delete', async (req, res) => {
   res.send(users);
 });
 
+<<<<<<< HEAD
 app.listen(5000, function(){
     console.log("server is still running on port 000");
+=======
+app.listen(4000, function(){
+    console.log("server is still running on port 4000");
+>>>>>>> 27770c817bf7906345780a4839cfecbef4087942
     
 });

@@ -1,28 +1,17 @@
 {
   "name": "backend",
   "version": "1.0.0",
-<<<<<<< HEAD
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "ejs": "^3.1.10",
-=======
-  "main": "script.js",
-  "scripts": {
-    "chacha": "echo \"\u001b[32mRunning tests...\u001b[39m\" && node script.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Faisal Hossain",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
->>>>>>> 09033e0f711ea1a265906a5bbabfb4eb008d1ee0
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0",
+    "nodemon": "^3.1.7"
   }
 }
